@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f9ee6f13-c4d0-4c1f-bbc7-baff16f7cfa4" name="Christophe Tour">
+        <fileTransfer rootFolder="/home/drakexorn/projects" accessType="SFTP" host="91.179.246.65" port="22" sshConfigId="80e5d0f6-ddd6-4420-889a-8183fae374c4" sshConfig="drakexorn@91.179.246.65:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

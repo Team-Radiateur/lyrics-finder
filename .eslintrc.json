@@ -1,0 +1,70 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "semi": "error",
+    "no-implicit-globals": "error",
+    "comma-dangle": "error",
+    "prefer-const": "error",
+    "no-trailing-spaces": "warn",
+    "space-before-blocks": "warn",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "import/extensions": [
+      0
+    ],
+    "import/prefer-default-export": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": [
+      "error"
+    ],
+    "max-len": [
+      "error",
+      {
+        "code": 125,
+        "ignoreUrls": true
+      }
+    ],
+    "prefer-destructuring": "error",
+    "space-in-parens": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-extra-semi": "off",
+    "quotes": [
+      "error",
+      "double",
+      {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }
+    ],
+    "no-tabs": [
+      "error",
+      {
+        "allowIndentationTabs": true
+      }
+    ],
+    "indent": [
+      "error",
+      "tab",
+      {
+        "SwitchCase": 1
+      }
+    ]
+  }
+}
